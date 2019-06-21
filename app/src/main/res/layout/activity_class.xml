@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Teacher.ClassActivity">
+
+    <TextView
+        android:id="@+id/add_user_txtview5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/header"
+        android:padding="10dp"
+        android:text="Manage Students"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/student_list_btn"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:onClick="toSelectAtoJActivity"
+        android:text="VIEW LIST OF STUDENTS"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/add_student_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:contentDescription="This level contains letter A to J."
+        android:text="ADD A NEW STUDENT"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/menu2_back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:contentDescription="."
+        android:onClick="toSelectLevelActivity"
+        android:text="@string/btn_back"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DefaultTheme" parent="@style/AppTheme">
+        <item name="android:background">@drawable/bg</item>
+    </style>
+</resources>

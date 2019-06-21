@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Braille3D</string>
+    <string name="btn_howto">Help</string>
+    <string name="btn_learn">Learn</string>
+    <string name="btn_exercises">Exercises</string>
+    <string name="btn_account">My Account</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_select_lvl">Please select a level</string>
+    <string name="lbl_select_ch">Please select a character</string>
+    <string name="btn_aToJ">Level 1</string>
+    <string name="btn_kToT">Level 2</string>
+    <string name="btn_uToZ">Level 3</string>
+    <string name="btn_0to9">Level 4</string>
+    <string name="btn_back">Back</string>
+
+    <string-array name="difficulties">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+        <item>5 digits</item>
+        <item>10 digits</item>
+    </string-array>
+
+    <string-array name="modules_easy">
+        <item>Module 1</item>
+        <item>Module 2</item>
+        <item>Module 3</item>
+    </string-array>
+
+    <string-array name="modules_normal">
+        <item>Module 1 and 2</item>
+        <item>Module 1 and 3</item>
+        <item>Module 2 and 3 </item>
+    </string-array>
+</resources>

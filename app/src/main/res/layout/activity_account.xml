@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Shared.AccountActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/header"
+        android:padding="10dp"
+        android:text="My Profile"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/name_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:text="[NAME]"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/email_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:text="[EMAIL ADDRESS]"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/addr_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:text="[HOME ADDRESS]"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phone_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:text="[PHONE]"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/teacher_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:text="[TEACHER]"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/assess_btn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button"
+        android:text="ASSESSMENT" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="BACK" />
+</LinearLayout>

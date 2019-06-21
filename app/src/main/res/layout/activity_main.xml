@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="60dp"
+    tools:context=".Student.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgViewAppLogo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="false"
+        android:background="#00000000"
+        android:contentDescription="Braille3D"
+        app:srcCompat="@drawable/braille3d2" />
+
+    <Button
+        android:id="@+id/learn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:contentDescription="Learn and be familiar with basic braille patterns."
+        android:text="@string/btn_learn" />
+
+    <Button
+        android:id="@+id/exer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:contentDescription="Take exercises assigned to you by the teacher."
+        android:text="@string/btn_exercises" />
+
+    <Button
+        android:id="@+id/account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:text="@string/btn_account" />
+
+    <Button
+        android:id="@+id/how_to_btn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:contentDescription="Instructions on how to use the app"
+        android:text="@string/btn_howto" />
+
+    <Button
+        android:id="@+id/sign_out_btn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:enabled="true"
+        android:text="@string/btn_sign_out"
+        tools:clickable="true" />
+</LinearLayout>

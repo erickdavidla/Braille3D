@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Shared.AssessmentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/add_user_txtview2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/header"
+                android:padding="10dp"
+                android:text="Assessment"
+                android:textAppearance="@android:style/TextAppearance.Material.Small"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/exerName_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Assessment for "
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/student_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:text="Student"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/student_editTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:inputType="none"
+                android:text="Student Name" />
+
+            <TextView
+                android:id="@+id/teacher_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:text="Teacher"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/teacher_editTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:inputType="none"
+                android:text="Teacher Name" />
+
+            <TextView
+                android:id="@+id/duration_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:text="Time it took to complete the exercise:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/duration_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:background="#00000000"
+                android:text="00:00"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/modules_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:text="Modules included in the exercise:"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/module1_chkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:clickable="false"
+                        android:text="A - J" />
+
+                    <CheckBox
+                        android:id="@+id/module2_chkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:clickable="false"
+                        android:text="K - T" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/module3_chkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:clickable="false"
+                        android:text="U - Z" />
+
+                    <CheckBox
+                        android:id="@+id/module4_chkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:clickable="false"
+                        android:text="Digits" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Tries for each item:"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/item_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/item1_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 1:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item2_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 2:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item3_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 3:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item4_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 4:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item5_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 5:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item6_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 6:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item7_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 7:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item8_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 8:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item9_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 9:"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/item10_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="Item 10:"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/retries_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/retries1_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries2_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries3_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries4_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries5_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries6_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries7_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries8_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries9_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/retries10_txtview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="#00000000"
+                        android:text="item1"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/back2assess_btn"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="BACK" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

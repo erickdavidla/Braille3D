@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Teacher.ViewExerciseActivity">
+
+    <TextView
+        android:id="@+id/add_user_txtview16"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/header"
+        android:padding="10dp"
+        android:text="List of Exercises"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/scrViewExer"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="30dp"
+        android:background="#00000000">
+
+        <LinearLayout
+            android:id="@+id/scrViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBack6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:contentDescription="to level selection."
+        android:text="@string/btn_back"
+        android:textSize="18sp" />
+
+</LinearLayout>

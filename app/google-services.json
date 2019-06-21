@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "708218761665",
+    "firebase_url": "https://braille3d.firebaseio.com",
+    "project_id": "braille3d",
+    "storage_bucket": "braille3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708218761665:android:eabf10a614076802",
+        "android_client_info": {
+          "package_name": "ph.edu.mapua.braille3d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708218761665-d7mk7snagbp5gss9kr8s01q0ggb9k8nq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ph.edu.mapua.braille3d",
+            "certificate_hash": "84ec72c9ba43280604b340fa200548e4a3fceb99"
+          }
+        },
+        {
+          "client_id": "708218761665-mg4gk6o2oltqr4anc5tc2jmmaof1gsu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhWB2iYfKYWM8TdXoRwz8qg6Bqc8QpD_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708218761665-mg4gk6o2oltqr4anc5tc2jmmaof1gsu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

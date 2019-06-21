@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Shared.InstructionsActivity">
+
+    <TextView
+        android:id="@+id/add_user_txtview7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/header"
+        android:padding="10dp"
+        android:text="How to Use the App"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/teach_ins_scrview"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="#00000000"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:text="My Students"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Manage your students here by viewing the list. You can also add new students by filling up the required fields. When you select a student, you can view their assessment in the exercise you have assigned them. "
+                android:textAlignment="viewStart"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:text="Adding a Letter Exercise"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="First, you need to put an exercise name, then you need to select the difficulty from easy, normal, or hard. For the easy, select one module and select the chronological order of the 5 letters. For the normal, select which set of modules you will choose, then select the chronological order of the 5 letters. For the hard, all modules are included, then select the chronological order of the 10 letters you want to include in the exercise. Once you have selected the module and the letters, tap confirm to add the exercise."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:text="Adding a Digit Exercise"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="First, you need to put an exercise name, then you need to select the difficulty from either 5 digits or 10 digits. For the 5 digits, select the chronological order of the 5 numbers. For the 10 digits, select the chronological order of the 10 numbers." />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:text="My Account"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Here, you can view your credentials such as your name, email, address, contact number." />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/stud_ins_scrview"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="#00000000"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/stud_help4_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:contentDescription="When you tap this button, the 3D model of the first example word of your selected letter will be downloaded. You can then use this model to 3D print it."
+                android:text="3D Model Download"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/stud_help6_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:contentDescription="Here, you can view your credentials such as your name, email, address, contact number, and the teacher who will help you. Your assessment in the exercises you took can also be viewed here."
+                android:text="My Account"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/stud_help5_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:contentDescription="When you select this module, you will be prompted to a page where you can see the available exercises that was set by your teacher. Once you start, you will be prompted to answer the set of Braille character that appears. There will be 3 choices in which you must select an answer.  When you take the exercise and finish it, it will no longer be available."
+                android:text="Exercise Module"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/stud_help1_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#00000000"
+                android:contentDescription="Once you select the learning module, you can select from levels 1 to 4 which contains the sets of letters and numbers. After that, select an alphabet or number of the selected letter to start practicing the Braille pattern."
+                android:text="Learning Module"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/stud_help2_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:contentDescription="You can practice here the Braille pattern of your selected letter by gliding your finger on the screen. You will then feel vibration when you hit a certain element which gives an “embossed” feeling. You can also choose if you want to hear another word that start with the selected letter or if you want to download the 3D model of the said letter."
+                android:text="Braille Pattern of Selected Letter"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/stud_help3_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:contentDescription="By pressing this button, another word that starts with your chosen letter will appear. Example when you tap this button: A for Apple, A for Ant."
+                android:text="Next Example Word"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/ins_back_btn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Back" />
+
+</LinearLayout>

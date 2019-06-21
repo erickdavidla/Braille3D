@@ -1,0 +1,1 @@
+include ':app', ':mylibrary', ':commons-lang3-3.7'

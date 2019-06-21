@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Student.SelectLevelActivity">
+
+    <TextView
+        android:id="@+id/add_user_txtview12"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/header"
+        android:contentDescription="Select a module you want to practice from the list below."
+        android:padding="10dp"
+        android:text="Please Select a Letter"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAtoJ"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:contentDescription="This level contains letter A to J."
+        android:onClick="toSelectAtoJActivity"
+        android:text="@string/btn_aToJ"
+        android:textSize="18sp" />"
+    android:contentDescription="Learn brai
+    rns fromletters A to J."
+
+    :onClick="toSelectAtoJA />
+
+    <Button
+        android:id="@+id/btnKtoT"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button"
+        android:contentDescription="This level contains letters K to T."
+        android:onClick="toSelectKtoTActivity"
+        android:text="@string/btn_kToT"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnUtoZ"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button"
+        android:contentDescription="This level contains letters U to Z."
+        android:onClick="toSelectUtoZActivity"
+        android:text="@string/btn_uToZ"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn0to9"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button"
+        android:contentDescription="This level contains numbers 0 to 9."
+        android:onClick="toSelect0to9Activity"
+        android:text="@string/btn_0to9"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:contentDescription="to main menu"
+        android:onClick="toMainActivity"
+        android:text="@string/btn_back"
+        android:textSize="18sp" />
+</LinearLayout>
